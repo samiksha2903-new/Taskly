@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Task</title>
+  </head>
+  <body class="idxWrapper_3">
+    <div class="container">
+      <div class="Date"></div>
+      <div class="nav">
+        <p class="userId">ID: <span></span></p>
+        <button class="addBtn">
+          <i class="fa-solid fa-plus"></i> Add Tasks
+        </button>
+      </div>
+
+      <div class="taskDiv">
+        <div class="task">
+            <textarea
+            type="text"
+            class="taskInp"
+            placeholder="Enter task"
+          ></textarea>
+          <fieldset class="fieldGroup">
+            <input type="checkbox" class="radio" value="complete" name="group1" />
+            <label for="value1" class="mr">Complete</label>
+            <input type="checkbox" class="radio" value="pending" name="group1" />
+            <label for="value2" class="mr">Pending</label>
+            <input type="checkbox" class="radio" value="incomplete" name="group1" />
+            <label for="value3" class="mr">Incomplete</label>
+          </fieldset>
+        </div>
+      </div>
+      <a href="ONE.html" class="saveBtn">Save</a>
+    </div>
+    <script type="module" src="THREE.js"></script>
+  </body>
+</html>
